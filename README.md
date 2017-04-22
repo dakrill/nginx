@@ -5,7 +5,7 @@ web site using the Nginx web server.
 
 Usage
 =====
-Add 'nginx' to you rnode's run list
+Add 'nginx' to your node's run list
 
 Requirements
 =====
