@@ -20,7 +20,7 @@ package 'epel-release'
 package 'nginx'
 
 service 'nginx' do
-  action [ :enable, :start ]
+  action [:enable, :start]
 end
 
 template '/usr/share/nginx/html/index.html' do
